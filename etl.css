@@ -1,0 +1,163 @@
+#score {
+    text-shadow: 2px 2px 4px #000000;
+    color: rgb(255, 155, 155);
+    font-weight: bold;
+    font-family: 'Comfortaa';
+}
+
+
+html,
+body {
+    font-family: 'Comfortaa';
+    height: 100%;
+    margin: 0 auto;
+    background-image: linear-gradient(rgb(0, 122, 204),rgb(255, 249, 247));
+
+}
+
+h1 {
+    text-shadow: 2px 2px 4px #000000;
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+    font-weight: bold;
+    font-family: 'Comfortaa';
+    bottom: auto;
+}
+
+h5 {
+    opacity: 50%;
+    color: azure;
+    font-style: italic;
+    font-weight: bold;
+    font-family: 'Comfortaa';
+}
+
+.sectionLeft {
+    float: left;
+    width: 65%;
+}
+
+.sectionRight {
+    float: right;
+    width: 35%;
+}
+
+#scorepersecond {
+    text-shadow: 2px 2px 4px #000000;
+    color: rgb(115, 255, 0);
+    font-style: italic;
+    font-size: 25px;
+}
+
+.sectionFooter {
+    position: relative;
+    left: 20px;
+    bottom: 20px;
+}
+
+.scoreContainer {
+    text-shadow: 2px 2px 4px #000000;
+    background-color: rgba(0, 0, 0, 0.582);
+    width: 50%;
+    padding: 10px;
+    border-radius: 15px;
+    box-shadow: 10px 10px 5px rgb(0, 0, 0);
+    font-weight: bold;
+    font-family: 'Comfortaa';
+    font-size: 30px;
+    color: white;
+}
+
+#clicker {
+    background-image: url("./images/close_case.png");
+    background-size: contain;
+    position: relative;
+    transition: all .2s ease-in-out;
+    height: 256px;
+    width: 256px;
+}
+
+#clicker:hover {
+    transform: scale(1.10);
+}
+
+#clicker:active {
+    transform: scale(0.99);
+}
+
+#clicker>.number {
+    text-shadow: 2px 2px 4px #000000;
+    z-index: 99;
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+    position: absolute;
+}
+
+.shopButton {
+    font-weight: bold;
+    background-color: beige;
+    transition: all .2s ease-in-out;
+    border-radius: 10px;
+    border-style: dashed;
+    width: 95%;
+    margin: 10px 0px 10px 0px;
+    box-shadow: 10px 10px 10px 10px;
+}
+
+.shopButton:hover {
+    background-color: rgb(177, 230, 255);
+    transition: all .2s ease-in-out;
+    transform: scale(1.05);
+}
+
+.shopButton #image {
+    width: 75px;
+    height: 75px;
+}
+
+.shopButton img {
+    width: 100px;
+    height: 100px;
+}
+
+.shopButton #nameAndCost p {
+    margin: 0px;
+    width: 60%;
+    white-space: nowrap;
+}
+
+.shopButton #nameAndCost p:first-of-type {
+    font-size: 25px;
+    font-family: 'Comfortaa';
+    white-space: nowrap;
+
+}
+
+.shopButton #amount {
+    font-size: 48px;
+    color: black;
+    font-family: 'Comfortaa';
+    width: 15%;
+}
+
+.unselectable {
+    user-select: none;
+}
+
+#achievementContainer img {
+    height: 70px;
+    width: 44px;
+}
+
+#resetButton {
+    background-color: rgba(255, 255, 255);
+    color: black;
+    border: 2px solid #ff0000;
+    opacity: 0.6;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+#resetButton:hover {
+    opacity: 1
+}

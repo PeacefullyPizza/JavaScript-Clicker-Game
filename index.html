@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Case Close Clicker</title>
+    <link rel="stylesheet" href="etl.css">
+    <link href='https://fonts.googleapis.com/css?family=Comfortaa' rel='stylesheet'>
+
+</head>
+
+<body>
+    <!Section Left Contains The Score Card, Save information, and the Awards>
+    <div class="sectionLeft">
+        <center>
+            <div class="scoreContainer unselectable">
+                <span id="score">0</span> / Cases Closed Total<br>
+                <span id="scorepersecond">0</span> / Cases Closed second
+            </div>
+            <br>
+            <div class="unselectable" id="clicker"></div>
+            <h5>Use "ctrl+s" to save your progress!</h5>
+            <h1>Awards</h1>
+            <div id="achievementContainer"></div>
+        </center>
+        <div class="sectionFooter">
+            <button id="resetButton" onclick="resetGame();">Reset Game</button>
+        </div>
+    </div>
+    <!Section Right Contains the Shops & Upgrades>
+    <div class="sectionRight">
+        <h1>ETL Party Members:</h1>
+        <div id="shopContainer"></div>
+        <!-- <h1>Upgrades:</h1>
+        <div id="upgradeContainer"></div> -->
+    </div>
+
+    <!linking JavaScript>
+    <script src="etl.js"></script>
+</body>
+
+</html>
